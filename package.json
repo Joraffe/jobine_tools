@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "tools for games made by jobine",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --config star_rail/domains/home/config/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,5 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
   },
-  "dependencies": {
-    "firebase": "^10.1.0"
-  }
+  "dependencies": {}
 }
