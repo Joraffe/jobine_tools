@@ -1,38 +1,10 @@
-import datetime
+from flask import Flask
 
-from flask import Flask, render_template
-from google.cloud import ndb
-
-from star_rail.py.models import character
+from star_rail.domains.home.routes import create_home_router
 
 
-client = ndb.Client()
 app = Flask(__name__)
-
-
-def store_time(email, dt):
-  pass
-  # entity = datastore.Entity(key=datastore_client.key("User", email, "visit"))
-  # entity.update({"timestamp": dt})
-
-  # datastore_client.put(entity)
-
-
-def fetch_times(email, limit):
-  pass
-  # ancestor = datastore_client.key("User", email)
-  # query = datastore_client.query(kind="visit", ancestor=ancestor)
-  # query.order = ["-timestamp"]
-
-  # times = query.fetch(limit=limit)
-
-  # return times
-
-
-@app.route("/")
-def root():
-  print(character)
-  return render_template("index.html")
+app.register_blueprint(create_home_router())
 
 
 if __name__ == "__main__":
