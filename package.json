@@ -1,0 +1,25 @@
+{
+  "name": "jobine_tools",
+  "version": "1.0.0",
+  "description": "tools for games made by jobine",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joraffe/jobine_tools.git"
+  },
+  "author": "Jordan Medina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joraffe/jobine_tools/issues"
+  },
+  "homepage": "https://github.com/Joraffe/jobine_tools#readme",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "firebase": "^10.1.0"
+  }
+}
