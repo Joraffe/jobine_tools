@@ -21,3 +21,8 @@
 **/*.njsproj
 **/*.sln
 **/*.sw?
+
+
+# Build files (only need to be deployed)
+star_rail/domains/shared/static/public/dist
+star_rail/domains/shared/static/public/dist
