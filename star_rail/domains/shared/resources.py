@@ -1,9 +1,17 @@
-from flask import Blueprint, send_from_directory
+from flask import (
+  Blueprint,
+  render_template,
+  send_from_directory
+)
 
 from star_rail.domains.shared.manifest import static_rp
 
 
-INDEX_TEMPLATE_PATH = 'shared/index.html'
+def index_factory(domain=None):
+  def index():
+    return render_template('shared/index.html', domain=domain)
+
+  return index
 
 
 def create_shared_blueprint():

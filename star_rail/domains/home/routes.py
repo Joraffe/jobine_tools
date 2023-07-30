@@ -1,21 +1,19 @@
 import os
 
-from flask import Blueprint, render_template
+from flask import Blueprint
 
 from star_rail.domains.shared.resources import (
-  INDEX_TEMPLATE_PATH,
-  create_shared_blueprint
+  create_shared_blueprint,
+  index_factory,
 )
-
-
-def home():
-  return render_template(INDEX_TEMPLATE_PATH, domain='home')
 
 
 def create_home_router():
   home_bp = Blueprint('home', __name__)
   home_bp.register_blueprint(create_shared_blueprint())
 
-  home_bp.route('/')(home)
+  index = index_factory(domain='home')
+  home_bp.route('/')(index)
+  home_bp.route('/about')(index)
 
   return home_bp
