@@ -3,13 +3,12 @@
   <head>
     <title>Jobine Tools</title>
     <!-- Static Script/Assests -->
-    <script src="{{ url_for(domain + '.shared.static', filename='dist/star_rail.js') }}"></script>
-    <link type="text/css" rel="stylesheet" href="{{ url_for(domain + '.shared.static', filename='styles.css') }}">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script type="module" src="{{ url_for(domain + '.shared.static', filename=static_rp('src/main.js')) }}"></script>
+    <link type="text/css" rel="stylesheet" href="{{ url_for(domain + '.shared.static', filename=static_rp('src/main.css')) }}">
   </head>
   <body>
     <h1>Heddo Bae, this is Jobine</h1>
+    <div id="app"></div>
     </script>
   </body>
 </html>
