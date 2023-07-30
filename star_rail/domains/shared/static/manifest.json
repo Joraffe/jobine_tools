@@ -1,0 +1,39 @@
+{
+  "src/assets/logo.svg": {
+    "file": "public/dist/logo-277e0e97.svg",
+    "src": "src/assets/logo.svg"
+  },
+  "src/main.css": {
+    "file": "public/dist/main-efcb3133.css",
+    "src": "src/main.css"
+  },
+  "src/main.js": {
+    "assets": [
+      "public/dist/logo-277e0e97.svg"
+    ],
+    "css": [
+      "public/dist/main-efcb3133.css"
+    ],
+    "dynamicImports": [
+      "src/views/AboutView.vue"
+    ],
+    "file": "public/dist/star_rail-5500ba63.js",
+    "isEntry": true,
+    "src": "src/main.js"
+  },
+  "src/views/AboutView.css": {
+    "file": "public/dist/AboutView-4d995ba2.css",
+    "src": "src/views/AboutView.css"
+  },
+  "src/views/AboutView.vue": {
+    "css": [
+      "public/dist/AboutView-4d995ba2.css"
+    ],
+    "file": "public/dist/AboutView-7893cfc5.js",
+    "imports": [
+      "src/main.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/views/AboutView.vue"
+  }
+}
