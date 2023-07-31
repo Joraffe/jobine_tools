@@ -11,7 +11,3 @@ import Nav from './components/Nav.vue'
     </div>
   </div>
 </template>
-
-<style scoped>
-
-</style>

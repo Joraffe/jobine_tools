@@ -2,7 +2,8 @@
 <html>
   <head>
     <title>Jobine Tools</title>
-    <!-- Static Script/Assests -->
+    <!-- Static Script/Assets -->
+    <link rel="stylesheet" href="{{ url_for(domain + '.shared.static', filename=static_rp('src/main.css')) }}">
     <script type="module" src="{{ url_for(domain + '.shared.static', filename=static_rp('src/main.js')) }}"></script>
 
     <!-- Materialize CSS/JS -->
