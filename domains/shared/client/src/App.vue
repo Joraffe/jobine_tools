@@ -7,7 +7,11 @@ import Nav from '@shared/components/Nav.vue'
   <Nav></Nav>
   <div class="container">
     <div class="row">
-    <RouterView />
+      <main>
+        <div class="section">
+          <RouterView />
+        </div>
+      </main>
     </div>
   </div>
 </template>

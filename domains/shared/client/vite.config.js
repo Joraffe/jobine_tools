@@ -23,7 +23,8 @@ export default defineConfig({
       // When adding new domains (and to keep their source code co-located in said domain),
       // Add an alias here so it's easier to import to the "shared" build process,
       // since the "shared" domain is what is building the static/public/dist files
-      '@home': fileURLToPath(new URL('../../home/client/src', import.meta.url))
+      '@home': fileURLToPath(new URL('../../home/client/src', import.meta.url)),
+      '@starRail': fileURLToPath(new URL('../../star_rail/client/src', import.meta.url)),
     }
   },
   build: {

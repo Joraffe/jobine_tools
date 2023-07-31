@@ -5,16 +5,12 @@ import ImageJobine from '@home/components/images/ImageJobine.vue'
 </script>
 
 <template>
-  <main>
-    <div class="section">
-      <LandingItem>
-        <template #image>
-          <ImageJobine></ImageJobine>
-        </template>
-        <template #blurb>
-          <BlurbJobine></BlurbJobine>
-        </template>
-      </LandingItem>
-    </div>
-  </main>
+  <LandingItem>
+    <template #image>
+      <ImageJobine></ImageJobine>
+    </template>
+    <template #blurb>
+      <BlurbJobine></BlurbJobine>
+    </template>
+  </LandingItem>
 </template>
