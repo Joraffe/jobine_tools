@@ -1,10 +1,12 @@
 from flask import Flask
 
 from domains.home.routes import create_home_router
+from domains.star_rail.routes import create_star_rail_router
 
 
 app = Flask(__name__)
 app.register_blueprint(create_home_router())
+app.register_blueprint(create_star_rail_router())
 
 
 if __name__ == "__main__":
