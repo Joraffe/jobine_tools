@@ -19,7 +19,11 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@shared': fileURLToPath(new URL('./src', import.meta.url)),
+      // When adding new domains (and to keep their source code co-located in said domain),
+      // Add an alias here so it's easier to import to the "shared" build process,
+      // since the "shared" domain is what is building the static/public/dist files
+      '@home': fileURLToPath(new URL('../../home/client/src', import.meta.url))
     }
   },
   build: {
