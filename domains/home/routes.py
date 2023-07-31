@@ -1,8 +1,6 @@
-import os
-
 from flask import Blueprint
 
-from star_rail.domains.shared.resources import (
+from domains.shared.resources import (
   create_shared_blueprint,
   index_factory,
 )

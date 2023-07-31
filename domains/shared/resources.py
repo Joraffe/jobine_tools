@@ -4,7 +4,7 @@ from flask import (
   send_from_directory
 )
 
-from star_rail.domains.shared.manifest import static_rp
+from domains.shared.manifest import static_rp
 
 
 def index_factory(domain=None):

@@ -28,7 +28,7 @@ export default defineConfig({
     manifest: true,
     rollupOptions: {
       input: {
-        'star_rail': './src/main.js'
+        'home': './src/main.js'
       }
     }
   }
