@@ -1,7 +1,7 @@
 from flask import Flask
 
-from domains.home.routes import create_home_router
-from domains.star_rail.routes import create_star_rail_router
+from domains.home.router import create_home_router
+from domains.star_rail.router import create_star_rail_router
 
 
 app = Flask(__name__)
