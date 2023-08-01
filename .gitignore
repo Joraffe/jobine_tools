@@ -26,3 +26,7 @@
 # Build files (only need to be deployed)
 domains/shared/static/public/dist/
 domains/shared/static/manifest.json
+
+
+# ipython config
+.ipython
