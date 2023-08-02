@@ -1,7 +1,11 @@
-<script setup>
-console.log('Star Rail Characters IndexVue loaded!')
-</script>
-
 <template>
-  <p>This is the /star-rail/characters page!</p>
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12">
+          <p>This is the /star-rail/characters page!</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
