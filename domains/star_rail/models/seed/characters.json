@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Bailu",
+    "combat_type": "Lightning",
+    "path": "Abundance",
+    "rarity": 5
+  },
+  {
+    "name": "Luocha",
+    "combat_type": "Imaginary",
+    "path": "Abundance",
+    "rarity": 5
+  },
+  {
+    "name": "Natasha",
+    "combat_type": "Physical",
+    "path": "Abundance",
+    "rarity": 4
+  },
+  {
+    "name": "Arlan",
+    "combat_type": "Lightning",
+    "path": "Destruction",
+    "rarity": 4
+  },
+  {
+    "name": "Blade",
+    "combat_type": "Wind",
+    "path": "Destruction",
+    "rarity": 5
+  },
+  {
+    "name": "Clara",
+    "combat_type": "Physical",
+    "path": "Destruction",
+    "rarity": 5
+  },
+  {
+    "name": "Hook",
+    "combat_type": "Fire",
+    "path": "Destruction",
+    "rarity": 4
+  },
+  {
+    "name": "Trailblazer",
+    "combat_type": "Physical",
+    "path": "Destruction",
+    "rarity": 5
+  },
+  {
+    "name": "Herta",
+    "combat_type": "Ice",
+    "path": "Erudition",
+    "rarity": 4
+  },
+  {
+    "name": "Himeko",
+    "combat_type": "Fire",
+    "path": "Erudition",
+    "rarity": 5
+  },
+  {
+    "name": "Jing Yuan",
+    "combat_type": "Lightning",
+    "path": "Erudition",
+    "rarity": 5
+  },
+  {
+    "name": "Qingque",
+    "combat_type": "Quantum",
+    "path": "Erudition",
+    "rarity": 4
+  },
+  {
+    "name": "Serval",
+    "combat_type": "Lightning",
+    "path": "Erudition",
+    "rarity": 4
+  },
+  {
+    "name": "Asta",
+    "combat_type": "Fire",
+    "path": "Harmony",
+    "rarity": 4
+  },
+  {
+    "name": "Bronya",
+    "combat_type": "Wind",
+    "path": "Harmony",
+    "rarity": 5
+  },
+  {
+    "name": "Tingyun",
+    "combat_type": "Lightning",
+    "path": "Harmony",
+    "rarity": 4
+  },
+  {
+    "name": "Yukong",
+    "combat_type": "Imaginary",
+    "path": "Harmony",
+    "rarity": 4
+  },
+  {
+    "name": "Dan Heng",
+    "combat_type": "Wind",
+    "path": "Hunt",
+    "rarity": 4
+  },
+  {
+    "name": "Seele",
+    "combat_type": "Quantum",
+    "path": "Hunt",
+    "rarity": 5
+  },
+  {
+    "name": "Sushang",
+    "combat_type": "Physical",
+    "path": "Hunt",
+    "rarity": 4
+  },
+  {
+    "name": "Yanqing",
+    "combat_type": "Ice",
+    "path": "Hunt",
+    "rarity": 5
+  },
+  {
+    "name": "Pela",
+    "combat_type": "Ice",
+    "path": "Nihility",
+    "rarity": 4
+  },
+  {
+    "name": "Sampo",
+    "combat_type": "Wind",
+    "path": "Nihility",
+    "rarity": 4
+  },
+  {
+    "name": "Silver Wolf",
+    "combat_type": "Quantum",
+    "path": "Nihility",
+    "rarity": 5
+  },
+  {
+    "name": "Welt",
+    "combat_type": "Imaginary",
+    "path": "Nihility",
+    "rarity": 5
+  },
+  {
+    "name": "Gepard",
+    "combat_type": "Ice",
+    "path": "Preservation",
+    "rarity": 5
+  },
+  {
+    "name": "March 7th",
+    "combat_type": "Ice",
+    "path": "Preservation",
+    "rarity": 4
+  },
+  {
+    "name": "Trailblazer",
+    "combat_type": "Fire",
+    "path": "Preservation",
+    "rarity": 5
+  }
+]
