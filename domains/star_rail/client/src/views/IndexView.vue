@@ -1,16 +1,15 @@
 <script setup>
-import LandingItem from '@shared/components/LandingItem.vue'
-import BlurbStarRail from '@starRail/components/blurbs/BlurbStarRail.vue'
-import ImagesstarRail from '@starRail/components/images/ImageStarRail.vue'
+import CardCharacter from '@starRail/components/cards/CardCharacter.vue'
 </script>
 
 <template>
-  <LandingItem>
-    <template #image>
-      <ImagesstarRail></ImagesstarRail>
-    </template>
-    <template #blurb>
-      <BlurbStarRail></BlurbStarRail>
-    </template>
-  </LandingItem>
+  <div class="container">
+    <div class="section">
+      <h3 class="center-align">Star Rail Tools</h3>
+    </div>
+    <div class="divider"></div>
+    <div class="section">
+      <CardCharacter></CardCharacter>
+    </div>
+  </div>
 </template>
